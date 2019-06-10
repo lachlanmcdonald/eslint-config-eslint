@@ -1,9 +1,11 @@
 {
-  "name": "@lachlanmcdonald/eslint",
+  "name": "@lachlanmcdonald/eslint-config-eslint",
   "version": "0.1.0",
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "LICENSE",
+    "README.md"
   ],
   "license": "MIT",
   "dependencies": {
