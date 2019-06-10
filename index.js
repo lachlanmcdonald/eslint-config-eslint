@@ -1,5 +1,5 @@
 module.exports = {
-	"extends": "eslint:recommended",
+	extends: "eslint:recommended",
 	rules: {
 		// Possible errors
 		"no-await-in-loop": "warn",
