@@ -18,12 +18,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lachlanmcdonald/eslint-config.git"
+    "url": "git+https://github.com/lachlanmcdonald/eslint-config-eslint.git"
   },
-  "author": "",
   "bugs": {
-    "url": "https://github.com/lachlanmcdonald/eslint-config/issues"
+    "url": "https://github.com/lachlanmcdonald/eslint-config-eslint/issues"
   },
-  "homepage": "https://github.com/lachlanmcdonald/eslint-config#readme",
-  "description": ""
+  "homepage": "https://github.com/lachlanmcdonald/eslint-config-eslint#readme"
 }
