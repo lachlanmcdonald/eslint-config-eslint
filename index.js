@@ -65,6 +65,9 @@ module.exports = {
 		"wrap-iife": ["error", "outside"],
 		"yoda": "error",
 
+		// Deviation from eslint:recommended
+		"no-prototype-builtins": 0,
+
 		// Variables
 		"no-label-var": "error",
 		"no-undef-init": "error",
