@@ -7,7 +7,11 @@ module.exports = {
 		"no-debugger": "warn",
 		"no-empty": "warn",
 		"no-extra-boolean-cast": "warn",
-		"no-extra-parens": ["warn", "all"],
+		"no-extra-parens": ["warn", "all", {
+			conditionalAssign: false,
+			returnAssign: false,
+			nestedBinaryExpressions: false,
+		}],
 		"no-template-curly-in-string": "warn",
 		"no-unreachable": "warn",
 
@@ -120,10 +124,18 @@ module.exports = {
 		"lines-between-class-members": ["warn", "always", {
 			exceptAfterSingleLine: true,
 		}],
-		"max-depth": ["warn", { max: 10 }],
-		"max-nested-callbacks": ["warn", { max: 10 }],
-		"max-params": ["warn", { max: 10 }],
-		"max-statements-per-line": ["warn", { max: 1 }],
+		"max-depth": ["warn", {
+			max: 10
+		}],
+		"max-nested-callbacks": ["warn", {
+			max: 10
+		}],
+		"max-params": ["warn", {
+			max: 10
+		}],
+		"max-statements-per-line": ["warn", {
+			max: 1
+		}],
 		"multiline-ternary": ["warn", "never"],
 		"new-cap": ["warn", {
 			newIsCap: true,
