@@ -70,7 +70,7 @@ module.exports = {
 		"yoda": "error",
 
 		// Deviation from eslint:recommended
-		"no-prototype-builtins": 0,
+		"no-prototype-builtins": "off",
 
 		// Variables
 		"no-label-var": "error",
