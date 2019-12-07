@@ -21,7 +21,6 @@ module.exports = {
 		}],
 		"array-callback-return": "error",
 		"block-scoped-var": "warn",
-		"class-methods-use-this": "warn",
 		"consistent-return": "warn",
 		"curly": "error",
 		"dot-location": ["error", "property"],
