@@ -16,9 +16,6 @@ module.exports = {
 		"no-unreachable": "warn",
 
 		// Best practises
-		"accessor-pairs": ["warn", {
-			getWithoutSet: true,
-		}],
 		"array-callback-return": "error",
 		"block-scoped-var": "warn",
 		"consistent-return": "warn",
@@ -68,8 +65,16 @@ module.exports = {
 		"wrap-iife": ["error", "outside"],
 		"yoda": "error",
 
+		// Avoiding pitfalls
+		"no-promise-executor-return": "warn",
+		"no-return-assign": "warn",
+		"no-constructor-return": "error",
+
 		// Deviation from eslint:recommended
 		"no-prototype-builtins": "off",
+		"accessor-pairs": ["warn", {
+			setWithoutGet: true,
+		}],
 
 		// Variables
 		"no-label-var": "error",
@@ -218,7 +223,7 @@ module.exports = {
 		"wrap-regex": 0,
 
 		// ECMAScript 6
-		"arrow-body-style": ["warn", "as-needed"],
+		"arrow-body-style": ["off"],
 		"arrow-parens": ["warn", "as-needed"],
 		"arrow-spacing": ["warn", {
 			before: true,
@@ -231,11 +236,11 @@ module.exports = {
 		}],
 		"no-class-assign": ["error"],
 		"no-confusing-arrow": ["error"],
-		"no-duplicate-imports": ["warn"],
+		"no-duplicate-imports": ["error"],
 		"no-this-before-super": ["warn"],
 		"no-useless-computed-key": ["warn"],
 		"no-useless-constructor": ["warn"],
-		"no-var": ["warn"],
+		"no-var": ["error"],
 		"object-shorthand": ["warn"],
 		"prefer-arrow-callback": ["warn"],
 		"prefer-const": ["warn"],
